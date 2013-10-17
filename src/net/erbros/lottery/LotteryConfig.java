@@ -410,6 +410,6 @@ public class LotteryConfig
 		return plugin.Method.format(amount);
 	}
 	public double getMaximumPot() {
-		return config.getInt("config.MaximumPotSize");
+		return maximumPot;
 	}
 }
